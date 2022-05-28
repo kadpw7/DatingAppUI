@@ -1,7 +1,7 @@
 import { Router } from '@angular/router';
 import { User } from './../models/user';
 import { ToastrService } from 'ngx-toastr';
-import { environment } from './../../environments/environment.prod';
+import { environment } from './../../environments/environment';
 import { Injectable } from '@angular/core';
 import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
 import { BehaviorSubject } from 'rxjs';
